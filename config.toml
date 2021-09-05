@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "https://stefmelenterprises.com"
+title = "Stefmel Enterprises"
 theme = "meghna-hugo"
 themesDir = "../.."
 # post pagination
