@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+on: [push]
+name: Deploy Hugo to Firebase
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - uses: ryank90/action-hugo-firebase-deploy@master
+      with:
+        firebase-token: ${{ 1//0gAf8fB-DKNoZCgYIARAAGBASNwF-L9IrKsM8M5u4eTE7Q5QVsoYxtX9RhmB7Bk4AeNZH18E1H1g18-A7J7krtHo2jkS__ci2-9s }}
+        alias: ${{ stefmelenterprises }} // Optional
+        hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
