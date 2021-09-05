@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://stefmelenterprises.com"
+baseURL = "/"
 title = "Stefmel Enterprises"
 theme = "meghna-hugo"
 themesDir = "../.."
